@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-pensamento',
@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class PensamentoComponent {
 
-  pensamento = {
+  @Input() pensamento = {
     conteudo: 'I love Angular',
     autoria: 'Thays Costa',
     modelo: 'modelo1',
