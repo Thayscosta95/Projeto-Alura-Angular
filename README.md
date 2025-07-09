@@ -11,6 +11,7 @@ MemoTeca é uma aplicação web para registrar e visualizar pensamentos, frases 
 Este projeto foi desenvolvido com Angular 14 e tem como objetivo ensinar os conceitos fundamentais desse framework poderoso e popular.
 
 <h2>🎯 Funcionalidades </h2>
+
 - ✅ Cadastro de pensamentos com autoria e modelo de cartão
 - ✅ Edição e exclusão de pensamentos
 - ✅ Visualização dos cartões em três estilos diferentes
@@ -19,21 +20,25 @@ Este projeto foi desenvolvido com Angular 14 e tem como objetivo ensinar os conc
 - ✅ Aplicação das diretivas *ngIf, *ngFor, ngClass
 - ✅ Utilização de Services e injeção de dependência
 
-🖼️ Interface
+<h2> 🖼️ Interface</h2>  
+
 O visual da aplicação foi desenhado no Figma pela designer Isa, e apresenta:
+<br>
 - Página inicial com título “Meu Mural” e botão “Adicionar Pensamento”
 - Tela de cadastro com formulário de 3 campos:
 - Pensamento
 - Autoria ou fonte
 - Modelo do card: azul escuro, azul claro, verde claro
 - Cartões estilizados conforme modelo selecionado
-🚀 Tecnologias Utilizadas
+<br>
+<h2>🚀 Tecnologias Utilizadas</h2>
 - Angular 14
 - Angular CLI
 - TypeScript
 - HTML & CSS
 - Figma (design base)
-🧪 Pré-requisitos
+<br>
+<h2>🧪 Pré-requisitos</h2>
 Para utilizar ou modificar este projeto, é recomendado que você tenha conhecimento em:
 - HTML e CSS
 - Programação orientada a objetos
