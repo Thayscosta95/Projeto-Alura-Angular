@@ -1,22 +1,10 @@
 {
-    "pensamentos":[
-        {
-            "id": 1,
-            "conteudo": "I love Angular",
-            "autoria": "Thays Costa",
-            "modelo": "modelo1"
-        },
-        {
-            "id": 2,
-            "conteudo": "Angular é incrível!",
-            "autoria": "João Silva",
-            "modelo": "modelo2"
-        },
-        {
-            "id": 3,
-            "conteudo": "Aprender Angular é divertido!",
-            "autoria": "Maria Oliveira",
-            "modelo": "modelo3"
-        }
-    ]
+  "pensamentos": [
+    {
+      "id": 2,
+      "conteudo": "Só sei que nada sei",
+      "autoria": "Sócrates",
+      "modelo": "modelo1"
+    }
+  ]
 }

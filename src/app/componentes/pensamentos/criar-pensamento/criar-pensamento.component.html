@@ -34,7 +34,7 @@
                 <div class="modelo modelo1 ff-roboto-mono">
                     <img src="../../../../assets/imagens/modelo1.png" alt="Aspas azuis">
                     <p class="conteudo">{{ pensamento.conteudo }}</p>
-                    <p class="autoria"><b>Pensamento autoria</b></p>
+                    <p class="autoria"><b>{{pensamento.autoria}}</b></p>
                 </div>
             </div>
 
@@ -72,7 +72,7 @@
         </div>
         <div class="acoes">
             <button (click)="criarPensamento()" class="botao">Salvar</button>
-            <button routerLink="/listarPensamentos" (click)="cancelar()" class="botao">Cancelar</button>
+            <button routerLink="/listar-pensamentos" (click)="cancelar()" class="botao">Cancelar</button>
         </div> 
     </form>
 </section>
