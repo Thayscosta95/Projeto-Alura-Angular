@@ -18,6 +18,9 @@ export class CriarPensamentoComponent implements OnInit {
     autoria: '',
     modelo: ''
   }
+
+  tentouSalvar: boolean = false;
+
   constructor(
     private service: PensamentoService,
     private router: Router
@@ -27,6 +30,12 @@ export class CriarPensamentoComponent implements OnInit {
   }
 
   criarPensamento() {
+
+    this.tentouSalvar = true;
+    if(!this.pensamento.conteudo || !this.pensamento.autoria || !this.pensamento.modelo) {
+      return;
+    }
+
     this.service.criar(this.pensamento).subscribe(() => {
       this.router.navigate(['/listar-pensamentos'])
     })

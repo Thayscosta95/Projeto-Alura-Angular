@@ -32,7 +32,7 @@
                 </label>
                 Prévia:
                 <div class="modelo modelo1 ff-roboto-mono">
-                    <img src="../../../../assets/imagens/modelo1.png" alt="Aspas azuis">
+                    <img src="/modelo1.png" alt="Aspas azuis">
                     <p class="conteudo">{{ pensamento.conteudo }}</p>
                     <p class="autoria"><b>{{pensamento.autoria}}</b></p>
                 </div>
@@ -48,7 +48,7 @@
                 </label>
                 Prévia:
                 <div class="modelo modelo2 ff-roboto-mono">
-                    <img src="../../../../assets/imagens/modelo2.png" alt="Aspas azul claro">
+                    <img src="/modelo2.png" alt="Aspas azul claro">
                     <p class="conteudo">{{ pensamento.conteudo }}</p>
                     <p class="autoria"><b>{{ pensamento.autoria }}</b></p>
                 </div>
@@ -64,15 +64,19 @@
                 </label>
                 Prévia:
                 <div class="modelo modelo3 ff-roboto-mono">
-                    <img src="../../../../assets/imagens/modelo3.png" alt="Aspas verdes">
+                    <img src="/modelo3.png" alt="Aspas verdes">
                     <p class="conteudo">{{ pensamento.conteudo }}</p>
                     <p class="autoria"><b>{{ pensamento.autoria }}</b></p>
                 </div>
             </div>
         </div>
+
+        <div *ngIf="tentouSalvar && (!pensamento.conteudo || !pensamento.autoria || !pensamento.modelo)" class="aviso">
+            Preencha todos os campos para poder salvar o pensamento.
+        </div>
         <div class="acoes">
             <button (click)="criarPensamento()" class="botao">Salvar</button>
-            <button routerLink="/listar-pensamentos" (click)="cancelar()" class="botao">Cancelar</button>
+            <button (click)="cancelar()" class="botao">Cancelar</button>
         </div> 
     </form>
 </section>
