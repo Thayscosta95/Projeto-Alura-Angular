@@ -1,59 +1,46 @@
-# Memoteca
+<h1>🧠 MemoTeca — CRUD com Angular</h1>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
+Projeto desenvolvido durante o curso “Angular: aplique os conceitos e desenvolva seu primeiro CRUD”, oferecido pela <b>Alura.</b>
 
-## Development server
+<h2>📚 Sobre o Projeto </h2>
+MemoTeca é uma aplicação web para registrar e visualizar pensamentos, frases inspiradoras e citações marcantes. Os usuários podem:
+- Cadastrar novos pensamentos
+- Visualizar o mural de pensamentos
+- Editar pensamentos existentes
+- Excluir pensamentos
+Este projeto foi desenvolvido com Angular 14 e tem como objetivo ensinar os conceitos fundamentais desse framework poderoso e popular.
 
-To start a local development server, run:
+<h2>🎯 Funcionalidades </h2>
 
-```bash
-ng serve
-```
+- ✅ Cadastro de pensamentos com autoria e modelo de cartão
+- ✅ Edição e exclusão de pensamentos
+- ✅ Visualização dos cartões em três estilos diferentes
+- ✅ Navegação dinâmica com Angular Router
+- ✅ Comunicação com servidor via HTTP Client (GET, POST, PUT, DELETE)
+- ✅ Aplicação das diretivas *ngIf, *ngFor, ngClass
+- ✅ Utilização de Services e injeção de dependência
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+<h2> 🖼️ Interface</h2>  
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+O visual da aplicação foi desenhado no Figma pela designer Isa, e apresenta:
+<br>
+- Página inicial com título “Meu Mural” e botão “Adicionar Pensamento”
+- Tela de cadastro com formulário de 3 campos:
+- Pensamento
+- Autoria ou fonte
+- Modelo do card: azul escuro, azul claro, verde claro
+- Cartões estilizados conforme modelo selecionado
+<br>
+<h2>🚀 Tecnologias Utilizadas</h2>
+- Angular 14
+- Angular CLI
+- TypeScript
+- HTML & CSS
+- Figma (design base)
+<br>
+<h2>🧪 Pré-requisitos</h2>
+Para utilizar ou modificar este projeto, é recomendado que você tenha conhecimento em:
+- HTML e CSS
+- Programação orientada a objetos
+- TypeScript
+- Uso básico
